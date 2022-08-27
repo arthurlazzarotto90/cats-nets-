@@ -1,0 +1,155 @@
+body {
+    margin: 0%;
+    background-color: rgb(230, 121, 44);
+}
+
+.entete {
+   height: 50px;
+   display: flex;
+   justify-content:space-around;
+   background-color: rgb(255, 255, 255);
+   
+}
+
+.mon_comte {
+    width: 70%;
+    text-align: end;
+    margin-top: 1%;
+    font-family: 'DynaPuff', cursive;
+    color:  rgb(230, 121, 44);
+}
+
+
+.img_chat {
+    width: 25%;
+    height: 30%;
+    margin-top: 5%;
+}
+
+.img_titre_para {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.titre_para_btn {
+    margin-top: 10%;
+}
+
+.titre {
+    font-family: 'DynaPuff', cursive;
+    color: aliceblue;
+}
+
+.btn_en {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:  'Roboto', sans-serif;
+    border: 0ch;
+}
+
+.btn_en:hover {
+    background-color: rgb(221, 220, 220); 
+}
+
+.div_titre {
+    display: flex;
+
+}
+
+.para {
+    font-family: 'DynaPuff', cursive;
+    color: aliceblue;
+}
+
+
+.incriton_comte {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.box {
+    margin-bottom: 3%;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(30, 25, 19);
+    text-decoration: none;
+}
+
+.box:hover {
+  transform: translateY(0) scale(1.1);
+  transition-duration: 0.5S;
+ 
+}
+
+.footer {
+    margin-top: 10%;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(30, 25, 19);
+}
+
+.chat_santer {
+    border-radius: 50%;
+    width: 80px;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.titre_box {
+    text-align: center;
+    color:aliceblue ;
+    font-family: 'DynaPuff', cursive;
+}
+
+.para_box {
+    text-align: center;
+    color:aliceblue ;
+    font-family:  'Roboto', sans-serif;
+}
+
+.bas_de_page {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_footer {
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.text_footer {
+    color:aliceblue ;
+    font-family: 'DynaPuff', cursive;
+}
+
+@media (max-width: 750px ) {
+
+    .img_chat {
+        width: 300px;
+        height: 350px;
+    }
+
+    .div_titre {
+        text-align: center;
+    }
+
+    .div_para {
+        text-align: center;
+    }
+
+    .btn_aprendre {
+        text-align: center;
+    }
+
+   .box {
+    pointer-events: none;
+   }
+
+}
