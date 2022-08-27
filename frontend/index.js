@@ -1,5 +1,8 @@
+const bouton_ap = document.getElementById('btn_ap')
+const aprender = document.getElementById('aps')
 
-const camion = document.querySelector('#roro')
-const avion = document.createElement('h1')
+bouton_ap.addEventListener('click', Event => {
+   
+});
 
-camion.append(avion)
+console.log(bouton_ap);
